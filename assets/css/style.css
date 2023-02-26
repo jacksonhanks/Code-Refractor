@@ -16,15 +16,18 @@ body {
 }
 
 .header h1 {
+    /*changed div to header*/
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /*changed div to header*/
     color: #d9dcd6;
 }
 
 .header nav {
+    /*changed div to nav*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,10 +36,12 @@ body {
 }
 
 .header nav ul {
+    /*changed div to nav*/
     list-style-type: none;
 }
 
 .header nav ul li {
+    /*changed div to nav*/
     display: inline-block;
     margin-left: 25px;
 }
