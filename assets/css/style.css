@@ -1,16 +1,32 @@
-/* universal selector style */
+/* ---------------------------------
+universal selector and element style 
+-----------------------------------*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* body style */
+/*body style*/
 body {
     background-color: #d9dcd6;
 }
 
-/* header and navbar style */
+/* <a> element style*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*paragraph style*/
+p {
+    font-size: 16px;
+}
+
+/*-------------------------------
+Structural elements content style
+-------------------------------*/
+/*header style*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,7 +42,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*navbar style*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,18 +60,6 @@ body {
     margin-left: 25px;
 }
 
-/*  element style */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* paragraph style*/
-p {
-    font-size: 16px;
-}
-
-/* figure style */
 /* Revoed in order to add alt text to the image
 .hero {
     height: 800px;
@@ -66,6 +70,7 @@ p {
     background-position: center;
 } */
 
+/*figure style*/
 .digital-marketing-meeting img {
     display: block;
     height:800px;
@@ -83,14 +88,38 @@ p {
     margin-left: 25px;
 }
 
-/* content style */
+/* Main content style*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* benefits style */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Aside/benefits content style*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -124,31 +153,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* footer style */
+/*footer style*/
 .footer {
     padding: 30px;
     clear: both;
