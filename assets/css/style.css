@@ -1,13 +1,16 @@
+/* universal selector style */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* body style */
 body {
     background-color: #d9dcd6;
 }
 
+/* header and navbar style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,18 +19,15 @@ body {
 }
 
 .header h1 {
-    /*changed div to header*/
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
-    /*changed div to header*/
     color: #d9dcd6;
 }
 
 .header nav {
-    /*changed div to nav*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,25 +36,27 @@ body {
 }
 
 .header nav ul {
-    /*changed div to nav*/
     list-style-type: none;
 }
 
 .header nav ul li {
-    /*changed div to nav*/
     display: inline-block;
     margin-left: 25px;
 }
 
+/*  element style */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraph style*/
 p {
     font-size: 16px;
 }
 
+/* hero style */
+/* Revoed in order to add alt text to the image
 .hero {
     height: 800px;
     width: 100%;
@@ -62,8 +64,15 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
+} */
 
+.digital-marketing-meeting img {
+    display: block;
+    height:800px;
+    width:100%;
+    margin-bottom:25px;
+}
+   
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,12 +83,14 @@ p {
     margin-left: 25px;
 }
 
+/* content style */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* benefits style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -193,6 +204,7 @@ p {
     font-size: 36px;
 }
 
+/* footer style */
 .footer {
     padding: 30px;
     clear: both;
@@ -203,3 +215,13 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* Revoed in order to add alt text to the image
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+} */
