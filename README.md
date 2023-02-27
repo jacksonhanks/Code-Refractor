@@ -9,7 +9,7 @@ This webpage has been refactered to increase accesiblity, while maintaing the or
 ## Installation
 This webpage was uploaded to GitHub at the repository:
 
-This webpage can also be accessed by the deployed application with the following link:  
+This webpage can also be accessed by the deployed application with the following link: https://jacksonhanks.github.io/Code-Refractor-HTML-CSS-and-Git/
 
 ## Credits
 
