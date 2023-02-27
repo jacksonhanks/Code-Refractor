@@ -15,13 +15,13 @@ This webpage can also be accessed by the deployed application with the following
 
 Refraction was perfomred with the help of a tutor, Julio Valdez, and various third-party attributes linked below.
 
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+[Full-stack README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-https://www.internetingishard.com/html-and-css/semantic-html/
+[Semantic HTML](https://www.internetingishard.com/html-and-css/semantic-html/)
 
-https://www.w3schools.com/html/html5_semantic_elements.asp
+[W3Schools Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
-https://www.w3schools.com/html/html_accessibility.asp
+[W3Schools HTML Accesibility](https://www.w3schools.com/html/html_accessibility.asp)
 
 ## License
 
